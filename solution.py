@@ -7,7 +7,7 @@ from scipy.stats import t
 chat_id = 997095449
 
 def solution(p: float, x: np.array) -> tuple:
-    aplpha = p
+    alpha = p
     measurements = x
     n = measurements.size
     x_mean = np.mean(measurements)
